@@ -1,7 +1,7 @@
 ---
 - name: Nginx Server Installation
-  hosts: serdar
-  become: yes
+  hosts: serdar-the-king
+ # become: yes
   tasks:
   - name: Install latest nginx
     yum:
